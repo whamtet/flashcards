@@ -174,7 +174,7 @@ return iter__6582__auto__((cljs.core.deref.cljs$core$IFn$_invoke$arity$1 ? cljs.
 })()], null):(function (){var vec__13702 = cljs.core.first((cljs.core.deref.cljs$core$IFn$_invoke$arity$1 ? cljs.core.deref.cljs$core$IFn$_invoke$arity$1(flashcards.core.scrambled) : cljs.core.deref.call(null,flashcards.core.scrambled)));
 var q = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13702,(0),null);
 var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13702,(1),null);
-return new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$style,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$font_DASH_size,(30)], null)], null),q], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$input,new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$type,"text",cljs.core.cst$kw$value,(cljs.core.deref.cljs$core$IFn$_invoke$arity$1 ? cljs.core.deref.cljs$core$IFn$_invoke$arity$1(flashcards.core.attempt) : cljs.core.deref.call(null,flashcards.core.attempt)),cljs.core.cst$kw$on_DASH_change,((function (vec__13702,q,a){
+return new cljs.core.PersistentVector(null, 10, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$style,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$font_DASH_size,(30)], null)], null),q], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$input,new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$type,"text",cljs.core.cst$kw$value,(cljs.core.deref.cljs$core$IFn$_invoke$arity$1 ? cljs.core.deref.cljs$core$IFn$_invoke$arity$1(flashcards.core.attempt) : cljs.core.deref.call(null,flashcards.core.attempt)),cljs.core.cst$kw$on_DASH_change,((function (vec__13702,q,a){
 return (function (p1__13672_SHARP_){
 var G__13703 = flashcards.core.attempt;
 var G__13704 = p1__13672_SHARP_.target.value;
@@ -189,6 +189,10 @@ return (cljs.core.reset_BANG_.cljs$core$IFn$_invoke$arity$2 ? cljs.core.reset_BA
 } else {
 return null;
 }
+});})(vec__13702,q,a))
+], null)], null)," ",new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$input,new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$type,"button",cljs.core.cst$kw$value,"Skip",cljs.core.cst$kw$on_DASH_click,((function (vec__13702,q,a){
+return (function (){
+return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(flashcards.core.scrambled,cljs.core.rest);
 });})(vec__13702,q,a))
 ], null)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$input,new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$type,"button",cljs.core.cst$kw$value,"Restart",cljs.core.cst$kw$on_DASH_click,((function (vec__13702,q,a){
 return (function (){
