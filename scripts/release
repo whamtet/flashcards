@@ -1,0 +1,6 @@
+#!/bin/sh
+rm -r release
+lein trampoline run -m clojure.main scripts/release.clj
+tput bel
+tput bel
+tput bel
