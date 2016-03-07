@@ -93,7 +93,7 @@
                  :on-click #(when (almost= @attempt a)
                               (swap! scrambled rest)
                               (reset! attempt ""))
-                 }] " "
+                 }][:br][:br][:br]
         [:input {
                  :type "button"
                  :value "Skip"
